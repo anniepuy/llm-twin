@@ -1,0 +1,131 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.ipynb_checkpoints
+
+# Virtual environments
+venv/
+.env/
+.env.*
+
+# ZenML
+.zen/
+zenml.log
+zenml_artifacts/
+zenml_metadata/
+zenml_outputs/
+zenml_pipelines/
+*.zenml.lock
+
+# Machine learning/LLMs
+*.h5
+*.hdf5
+*.ckpt
+*.tflite
+*.onnx
+*.joblib
+*.npy
+*.pkl
+*.pt
+*.pth
+*.model
+*.weights
+
+# Large data files
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.jsonl
+*.gz
+*.zip
+*.tar
+*.7z
+*.bz2
+
+# Credentials and config files
+secrets/
+*.secret
+*.key
+*.pem
+*.pfx
+*.crt
+*.env
+config.json
+credentials.json
+
+# Logs and debug files
+*.log
+*.out
+*.err
+*.trace
+
+# Jupyter Notebook output
+.ipynb_checkpoints
+*.nbconvert.ipynb
+*.jupyter
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.lock
+
+# Testing
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.coverage
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.hypothesis/
+junit-*.xml
+test-results/
+
+# Docker and Containers
+*.dockerfile
+docker-compose.override.yml
+.dockerignore
+
+# Generated files
+*.egg-info/
+*.egg
+*.whl
+build/
+dist/
+*.deb
+*.rpm
+*.exe
+*.msi
+*.dmg
+*.app
+*.sh
+
+# ZenML-specific generated files
+pipelines/
+artifacts/
+metadata/
+outputs/
+
+# Specific to LLM training and embeddings
+embeddings/
+*.bin
+*.tokenizer
+cache/
+*.embeddings
+*.chroma/
